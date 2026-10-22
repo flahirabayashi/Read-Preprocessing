@@ -14,11 +14,11 @@ Make sure you have Conda installed and configured on your system.
 conda create -n preprocess -c bioconda fastp fastqc multiqc
 conda activate preprocess
 ```
-### Step 2: Step 2: Prepare Your Files
+### Step 2: Prepare Your Files
 
 Place your raw read files (e.g., reads1.fastq and reads2.fastq) in the same directory as the pre-process.py script.
 
-### Step 3: Step 3: Execute the Pipeline
+### Step 3: Execute the Pipeline
 
 Run the Python script from your terminal, providing the paths to your input files and an output directory.
 
